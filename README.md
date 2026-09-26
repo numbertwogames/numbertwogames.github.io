@@ -8,7 +8,7 @@ Website for Number Two Games, built with Jekyll and hosted on GitHub Pages.
 |---|---|
 | `_config.yml` | Site settings: URL, contact email and supported languages |
 | `_data/games.yml` | Games shown on the site, with store links and screenshots |
-| `_data/i18n/<lang>.yml` | All text per language (en, nl, de, fr, es) |
+| `_data/i18n/<lang>.yml` | All text per language. Only the languages listed in `_config.yml` (currently en and nl) are published; de, fr and es are kept for later. To bring one back, add it to `languages` and restore its `<lang>/` pages from git history |
 | `_layouts/` | Page templates: `home`, `game`, `support`, `privacy`, `redirect` |
 | `<lang>/…` | Page stubs per language, for example `/nl/`, `/nl/ace31/`, `/nl/privacy/` |
 | `index.html`, `ace31/`, `privacy/`, `support/` | Language-neutral URLs that redirect to the visitor's preferred language |

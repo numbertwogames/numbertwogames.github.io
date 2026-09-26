@@ -10,25 +10,25 @@ nav:
   skip: Naar de inhoud
 
 meta:
-  description: Number Two Games is een onafhankelijke gamestudio die snelle en makkelijk te spelen games maakt voor telefoon en tablet.
+  description: "Number Two Games maakt snelle, simpele en leuke games voor telefoon en tablet. Perfect voor je grote boodschap."
 
 hero:
-  title: Snelle games. Makkelijk te spelen.
-  text: Wij maken games die je in een paar seconden oppakt en binnen een paar minuten speelt.
-  cta: Bekijk onze games
+  title: "Games voor je grote boodschap."
+  text: "Snelle, simpele games die je in seconden oppakt en uitspeelt voordat je benen in slaap vallen."
+  cta: "Laat de games zien"
 
 games:
-  heading: Onze games
+  heading: "Vers van de pers"
   release: Verschijnt
   view: Bekijk game
-  more_title: Er komt meer
-  more_text: We werken al aan onze volgende game. Houd ons in de gaten!
+  more_title: "Er komt meer aan"
+  more_text: "We zitten al flink te persen op onze volgende game. Nog even geduld!"
 
 studio:
-  heading: Over de studio
+  heading: "Wie zit daar?"
   paragraphs:
-    - Number Two Games is een kleine, onafhankelijke gamestudio. We maken snelle en makkelijk te spelen games voor je telefoon en tablet.
-    - Onze games leer je snel, speel je graag opnieuw en passen in elk vrij moment. We houden ze eenvoudig en eerlijk, en we respecteren je tijd en je privacy.
+    - "Number Two Games is een kleine, onafhankelijke gamestudio met één missie: de leukste games maken voor de beste plek in huis."
+    - "Onze games leer je snel, speel je graag opnieuw en passen in elk vrij moment. Ja, ook dát moment. Eenvoudig, eerlijk en met respect voor je tijd en je privacy. Gewoon schoon plezier."
 
 game_page:
   release: Verschijnt
@@ -44,8 +44,8 @@ game_page:
 
 support:
   title: Support
-  intro: Hulp nodig met een van onze games, een fout gevonden of een idee? We helpen je graag.
-  contact_heading: Neem contact op
+  intro: "Vastgelopen? Een bug gevonden? Een briljant idee gekregen op de pot? We helpen je graag."
+  contact_heading: "Laat iets van je horen"
   contact_text: Stuur ons een e-mail en we reageren zo snel mogelijk, meestal binnen een paar werkdagen.
   contact_tip: "Tip: vertel ons om welke game, welk apparaat en welke versie het gaat. Zo kunnen we je sneller helpen."
   faq_heading: Veelgestelde vragen
@@ -99,9 +99,9 @@ footer:
   rights: Alle rechten voorbehouden.
 
 not_found:
-  title: Pagina niet gevonden
-  text: Sorry, we konden deze pagina niet vinden.
-  home: Terug naar de homepage
+  title: "Oeps, deze pagina is doorgespoeld"
+  text: "We hebben overal gezocht, maar deze pagina is door de wc verdwenen."
+  home: "Snel terug naar huis"
 
 games_text:
   ace31:

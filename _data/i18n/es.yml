@@ -10,25 +10,25 @@ nav:
   skip: Ir al contenido
 
 meta:
-  description: Number Two Games es un estudio de videojuegos independiente que crea juegos rápidos y fáciles de jugar para móvil y tableta.
+  description: "Number Two Games crea juegos rápidos, sencillos y divertidos para móvil y tableta. Perfectos para tu momento número dos."
 
 hero:
-  title: Juegos rápidos. Fáciles de jugar.
-  text: Creamos juegos que aprendes en segundos y disfrutas en minutos.
-  cta: Ver nuestros juegos
+  title: "Juegos para tu momento número dos."
+  text: "Juegos rápidos y sencillos que empiezas en segundos y terminas antes de que se te duerman las piernas."
+  cta: "Enséñame los juegos"
 
 games:
-  heading: Nuestros juegos
+  heading: "Recién salidos"
   release: Lanzamiento
   view: Ver juego
-  more_title: Más juegos en camino
-  more_text: Ya estamos trabajando en nuestro próximo juego. ¡Atento a las novedades!
+  more_title: "Viene más"
+  more_text: "Estamos apretando fuerte con nuestro próximo juego. ¡Aguanta un poco!"
 
 studio:
-  heading: Sobre el estudio
+  heading: "¿Quién está ahí dentro?"
   paragraphs:
-    - Number Two Games es un pequeño estudio de videojuegos independiente. Creamos juegos rápidos y fáciles de jugar para tu móvil y tu tableta.
-    - Nuestros juegos se aprenden rápido, apetece volver a jugarlos y encajan en cualquier rato libre. Los mantenemos sencillos y justos, y respetamos tu tiempo y tu privacidad.
+    - "Number Two Games es un pequeño estudio de videojuegos independiente con una misión: crear los mejores juegos para el mejor asiento de la casa."
+    - "Nuestros juegos se aprenden rápido, apetece volver a jugarlos y encajan en cualquier rato libre. Sí, también en ese. Sencillos, justos y respetuosos con tu tiempo y tu privacidad. Diversión limpia y sin complicaciones."
 
 game_page:
   release: Lanzamiento
@@ -44,8 +44,8 @@ game_page:
 
 support:
   title: Soporte
-  intro: ¿Necesitas ayuda con alguno de nuestros juegos, has encontrado un error o tienes una idea? Estaremos encantados de ayudarte.
-  contact_heading: Contacto
+  intro: "¿Atascado? ¿Has encontrado un error? ¿Se te ha ocurrido una idea genial en el trono? Estaremos encantados de ayudarte."
+  contact_heading: "Escríbenos"
   contact_text: Envíanos un correo electrónico y te responderemos lo antes posible, normalmente en unos pocos días laborables.
   contact_tip: "Consejo: indícanos el juego, tu dispositivo y la versión que usas. Así podremos resolver tu problema más rápido."
   faq_heading: Preguntas frecuentes
@@ -99,9 +99,9 @@ footer:
   rights: Todos los derechos reservados.
 
 not_found:
-  title: Página no encontrada
-  text: Lo sentimos, no hemos encontrado esta página.
-  home: Volver a la página de inicio
+  title: "Ups, alguien tiró de la cadena"
+  text: "Hemos buscado por todas partes, pero esta página se ha ido por el desagüe."
+  home: "Volver rápido al inicio"
 
 games_text:
   ace31:

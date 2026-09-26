@@ -10,25 +10,25 @@ nav:
   skip: Skip to content
 
 meta:
-  description: Number Two Games is an independent game studio making fast and easy-to-play games for phone and tablet.
+  description: "Number Two Games makes quick, easy and fun games for phone and tablet. Perfect for your number two break."
 
 hero:
-  title: Fast games. Easy to play.
-  text: We make games you can pick up in seconds and enjoy in minutes.
-  cta: See our games
+  title: "Games for your number two break."
+  text: "Quick, easy games you can start in seconds and finish before your legs fall asleep."
+  cta: "Show me the games"
 
 games:
-  heading: Our games
+  heading: "Fresh drops"
   release: Release
   view: View game
-  more_title: More to come
-  more_text: We are already working on our next game. Stay tuned!
+  more_title: "More coming soon"
+  more_text: "We are pushing hard on our next game. Hold tight!"
 
 studio:
-  heading: About the studio
+  heading: "Who's in there?"
   paragraphs:
-    - Number Two Games is a small, independent game studio. We make fast and easy-to-play games for your phone and tablet.
-    - Our games are quick to learn, fun to replay and fit into any spare moment. We keep them simple and fair, and we respect your time and your privacy.
+    - "Number Two Games is a tiny, independent game studio with one mission: making the best games for the best seat in the house."
+    - "Our games are quick to learn, fun to replay and fit into any spare moment. Yes, that one too. Simple, fair and respectful of your time and your privacy. Just good, clean fun."
 
 game_page:
   release: Release
@@ -44,8 +44,8 @@ game_page:
 
 support:
   title: Support
-  intro: Need help with one of our games, found a bug or have an idea? We are happy to help.
-  contact_heading: Contact us
+  intro: "Stuck? Found a bug? Had a brilliant idea on the throne? We are happy to help."
+  contact_heading: "Drop us a line"
   contact_text: Send us an email and we will get back to you as soon as possible, usually within a few working days.
   contact_tip: "Tip: tell us which game, which device and which version you are using. That helps us solve your problem faster."
   faq_heading: Frequently asked questions
@@ -99,9 +99,9 @@ footer:
   rights: All rights reserved.
 
 not_found:
-  title: Page not found
-  text: Sorry, we could not find this page.
-  home: Back to the home page
+  title: "Oops, someone flushed this page"
+  text: "We looked everywhere, but this page went down the drain."
+  home: "Take me home"
 
 games_text:
   ace31:

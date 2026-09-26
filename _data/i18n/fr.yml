@@ -10,25 +10,25 @@ nav:
   skip: Aller au contenu
 
 meta:
-  description: Number Two Games est un studio de jeux indépendant qui crée des jeux rapides et faciles à jouer pour téléphone et tablette.
+  description: "Number Two Games crée des jeux rapides, simples et amusants pour téléphone et tablette. Parfaits pour la grosse commission."
 
 hero:
-  title: Des jeux rapides. Faciles à jouer.
-  text: Nous créons des jeux que l'on prend en main en quelques secondes et que l'on joue en quelques minutes.
-  cta: Découvrir nos jeux
+  title: "Des jeux pour la grosse commission."
+  text: "Des jeux rapides et simples, que l'on lance en quelques secondes et que l'on termine avant d'avoir les jambes engourdies."
+  cta: "Voir les jeux"
 
 games:
-  heading: Nos jeux
+  heading: "Tout frais sortis"
   release: Sortie
   view: Voir le jeu
-  more_title: D'autres à venir
-  more_text: Nous travaillons déjà sur notre prochain jeu. Restez à l'écoute !
+  more_title: "D'autres arrivent"
+  more_text: "Nous poussons fort sur notre prochain jeu. Encore un petit effort !"
 
 studio:
-  heading: À propos du studio
+  heading: "Qui est là-dedans ?"
   paragraphs:
-    - Number Two Games est un petit studio de jeux indépendant. Nous créons des jeux rapides et faciles à jouer pour votre téléphone et votre tablette.
-    - Nos jeux s'apprennent vite, donnent envie d'y revenir et trouvent leur place dans chaque moment libre. Nous les voulons simples et honnêtes, dans le respect de votre temps et de votre vie privée.
+    - "Number Two Games est un petit studio de jeux indépendant avec une mission : créer les meilleurs jeux pour la meilleure place de la maison."
+    - "Nos jeux s'apprennent vite, donnent envie d'y revenir et trouvent leur place dans chaque moment libre. Oui, même celui-là. Simples, honnêtes et respectueux de votre temps et de votre vie privée. Du plaisir tout propre."
 
 game_page:
   release: Sortie
@@ -44,8 +44,8 @@ game_page:
 
 support:
   title: Assistance
-  intro: Besoin d'aide avec l'un de nos jeux, un bug à signaler ou une idée à partager ? Nous sommes là pour vous aider.
-  contact_heading: Nous contacter
+  intro: "Bloqué ? Un bug à signaler ? Une idée de génie sur le trône ? Nous sommes là pour vous aider."
+  contact_heading: "Écrivez-nous"
   contact_text: Envoyez-nous un e-mail et nous vous répondrons dès que possible, généralement sous quelques jours ouvrés.
   contact_tip: "Astuce : indiquez-nous le jeu, votre appareil et la version utilisée. Cela nous aide à résoudre votre problème plus rapidement."
   faq_heading: Questions fréquentes
@@ -99,9 +99,9 @@ footer:
   rights: Tous droits réservés.
 
 not_found:
-  title: Page introuvable
-  text: Désolé, nous n'avons pas trouvé cette page.
-  home: Retour à l'accueil
+  title: "Oups, quelqu'un a tiré la chasse"
+  text: "Nous avons cherché partout, mais cette page a disparu dans les tuyaux."
+  home: "Vite, retour à l'accueil"
 
 games_text:
   ace31:

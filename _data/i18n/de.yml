@@ -10,25 +10,25 @@ nav:
   skip: Zum Inhalt springen
 
 meta:
-  description: Number Two Games ist ein unabhängiges Spielestudio, das schnelle und leicht zu spielende Spiele für Smartphone und Tablet entwickelt.
+  description: "Number Two Games macht schnelle, einfache und lustige Spiele für Smartphone und Tablet. Perfekt für dein großes Geschäft."
 
 hero:
-  title: Schnelle Spiele. Leicht zu spielen.
-  text: Wir machen Spiele, die du in Sekunden verstehst und in wenigen Minuten spielst.
-  cta: Unsere Spiele ansehen
+  title: "Spiele für dein großes Geschäft."
+  text: "Schnelle, einfache Spiele, die du in Sekunden startest und durchspielst, bevor dir die Beine einschlafen."
+  cta: "Zeig mir die Spiele"
 
 games:
-  heading: Unsere Spiele
+  heading: "Frisch aus der Presse"
   release: Erscheint
   view: Zum Spiel
-  more_title: Mehr folgt
-  more_text: Wir arbeiten bereits an unserem nächsten Spiel. Bleib dran!
+  more_title: "Da kommt noch mehr"
+  more_text: "Wir drücken schon kräftig an unserem nächsten Spiel. Bleib dran!"
 
 studio:
-  heading: Über das Studio
+  heading: "Wer sitzt da drin?"
   paragraphs:
-    - Number Two Games ist ein kleines, unabhängiges Spielestudio. Wir entwickeln schnelle und leicht zu spielende Spiele für dein Smartphone und Tablet.
-    - Unsere Spiele sind schnell gelernt, machen immer wieder Spaß und passen in jede freie Minute. Wir halten sie einfach und fair und respektieren deine Zeit und deine Privatsphäre.
+    - "Number Two Games ist ein kleines, unabhängiges Spielestudio mit einer Mission: die besten Spiele für den besten Platz im Haus."
+    - "Unsere Spiele sind schnell gelernt, machen immer wieder Spaß und passen in jede freie Minute. Ja, auch in diese. Einfach, fair und mit Respekt für deine Zeit und deine Privatsphäre. Einfach sauberer Spaß."
 
 game_page:
   release: Erscheint
@@ -44,8 +44,8 @@ game_page:
 
 support:
   title: Support
-  intro: Brauchst du Hilfe mit einem unserer Spiele, hast du einen Fehler gefunden oder eine Idee? Wir helfen dir gerne.
-  contact_heading: Kontakt
+  intro: "Du hängst fest? Einen Fehler gefunden? Eine geniale Idee auf dem Thron gehabt? Wir helfen dir gerne."
+  contact_heading: "Schreib uns"
   contact_text: Schreib uns eine E-Mail und wir melden uns so schnell wie möglich, meist innerhalb weniger Werktage.
   contact_tip: "Tipp: Nenne uns das Spiel, dein Gerät und die Version. So können wir dir schneller helfen."
   faq_heading: Häufige Fragen
@@ -99,9 +99,9 @@ footer:
   rights: Alle Rechte vorbehalten.
 
 not_found:
-  title: Seite nicht gefunden
-  text: Diese Seite konnten wir leider nicht finden.
-  home: Zurück zur Startseite
+  title: "Hoppla, diese Seite wurde weggespült"
+  text: "Wir haben überall gesucht, aber diese Seite ist im Abfluss verschwunden."
+  home: "Schnell zurück nach Hause"
 
 games_text:
   ace31:
