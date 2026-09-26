@@ -1,0 +1,101 @@
+---
+layout: default
+---
+{%- assign lang = page.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign game = site.data.games | where: 'id', page.game | first -%}
+{%- assign gt = t.games_text[game.id] -%}
+<section class="game-hero game-{{ game.id }}" style="--game-bg: url('{{ game.background }}')">
+  <div class="container game-hero-inner">
+    <img class="game-logo" src="{{ game.logo }}" alt="{{ game.name }}" width="293" height="209">
+    <div class="game-hero-text">
+      <h1>{{ game.name }}</h1>
+      <p class="tagline">{{ gt.tagline }}</p>
+      <p class="release"><span>{{ t.game_page.release }}</span> <strong>{{ gt.release }}</strong></p>
+      <div class="store-buttons" aria-label="{{ t.game_page.download }}">
+        {%- include store-button.html store="app" url=game.app_store_url %}
+        {%- include store-button.html store="play" url=game.play_store_url %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container narrow">
+    {%- for p in gt.description %}
+    <p class="lead">{{ p }}</p>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="section section-screens" aria-labelledby="screens-title">
+  <div class="container">
+    <h2 id="screens-title" class="section-title">{{ t.game_page.screenshots }}</h2>
+  </div>
+  <ul class="screens">
+    {%- for s in game.screenshots %}
+    {%- assign src = '/assets/img/games/' | append: game.id | append: '/screens/' | append: lang | append: '/' | append: s | append: '.webp' %}
+    <li>
+      <a href="{{ src }}" class="screen" data-lightbox>
+        <img src="{{ src }}" alt="{{ gt.screenshots[s] }}" width="1600" height="736" loading="lazy">
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+  <dialog class="lightbox">
+    <form method="dialog"><button class="lightbox-close" aria-label="{{ t.game_page.close }}">×</button></form>
+    <img src="" alt="">
+  </dialog>
+</section>
+
+<section class="section">
+  <div class="container columns">
+    <div class="card">
+      <h2>{{ t.game_page.how_to_play }}</h2>
+      <ul class="bullets">
+        {%- for item in gt.how_to_play %}
+        <li>{{ item }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div class="card">
+      <h2>{{ t.game_page.features }}</h2>
+      <ul class="bullets">
+        {%- for item in gt.features %}
+        <li>{{ item }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-download">
+  <div class="container download-inner">
+    <img src="{{ game.icon }}" alt="" width="120" height="120" loading="lazy" class="app-icon">
+    <div>
+      <h2>{{ t.game_page.download }} {{ game.name }}</h2>
+      <p class="release"><span>{{ t.game_page.release }}</span> <strong>{{ gt.release }}</strong></p>
+      <div class="store-buttons">
+        {%- include store-button.html store="app" url=game.app_store_url %}
+        {%- include store-button.html store="play" url=game.play_store_url %}
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <a class="back-link" href="/{{ lang }}/#games"><span aria-hidden="true">←</span> {{ t.game_page.back }}</a>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": {{ game.name | jsonify }},
+  "description": {{ gt.short | jsonify }},
+  "applicationCategory": "GameApplication",
+  "operatingSystem": {{ game.platforms | join: ', ' | jsonify }},
+  "inLanguage": {{ site.languages | jsonify }},
+  "image": "{{ site.url }}{{ game.icon }}",
+  "author": { "@type": "Organization", "name": "Number Two Games", "url": "{{ site.url }}" }
+}
+</script>

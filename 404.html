@@ -1,0 +1,51 @@
+---
+permalink: /404.html
+---
+<!DOCTYPE html>
+<html lang="{{ site.default_lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 · {{ site.title }}</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/brand/favicon-32.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="page-404">
+  <main class="not-found">
+    <img src="/assets/img/brand/mark.png" alt="" width="120" height="125">
+    <h1 id="nf-title">{{ site.data.i18n[site.default_lang].not_found.title }}</h1>
+    <p id="nf-text">{{ site.data.i18n[site.default_lang].not_found.text }}</p>
+    <a id="nf-home" class="button button-light" href="/{{ site.default_lang }}/">{{ site.data.i18n[site.default_lang].not_found.home }}</a>
+  </main>
+  <script>
+    (function () {
+      var strings = {
+        {%- for l in site.languages %}
+        {{ l | jsonify }}: {{ site.data.i18n[l].not_found | jsonify }}{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      };
+      var first = location.pathname.split('/')[1];
+      var lang = strings[first] ? first : null;
+      if (!lang) {
+        try { var saved = localStorage.getItem('lang'); if (strings[saved]) lang = saved; } catch (e) {}
+      }
+      if (!lang) {
+        var prefs = navigator.languages || [navigator.language || ''];
+        for (var i = 0; i < prefs.length && !lang; i++) {
+          var code = String(prefs[i]).toLowerCase().split('-')[0];
+          if (strings[code]) lang = code;
+        }
+      }
+      lang = lang || {{ site.default_lang | jsonify }};
+      var s = strings[lang];
+      document.documentElement.lang = lang;
+      document.getElementById('nf-title').textContent = s.title;
+      document.getElementById('nf-text').textContent = s.text;
+      var home = document.getElementById('nf-home');
+      home.textContent = s.home;
+      home.href = '/' + lang + '/';
+    })();
+  </script>
+</body>
+</html>

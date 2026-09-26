@@ -1,0 +1,133 @@
+name: Español
+locale: es_ES
+
+nav:
+  games: Juegos
+  studio: Estudio
+  support: Soporte
+  privacy: Privacidad
+  language: Idioma
+  skip: Ir al contenido
+
+meta:
+  description: Number Two Games es un estudio de videojuegos independiente que crea juegos rápidos y fáciles de jugar para móvil y tableta.
+
+hero:
+  title: Juegos rápidos. Fáciles de jugar.
+  text: Creamos juegos que aprendes en segundos y disfrutas en minutos.
+  cta: Ver nuestros juegos
+
+games:
+  heading: Nuestros juegos
+  release: Lanzamiento
+  view: Ver juego
+  more_title: Más juegos en camino
+  more_text: Ya estamos trabajando en nuestro próximo juego. ¡Atento a las novedades!
+
+studio:
+  heading: Sobre el estudio
+  paragraphs:
+    - Number Two Games es un pequeño estudio de videojuegos independiente. Creamos juegos rápidos y fáciles de jugar para tu móvil y tu tableta.
+    - Nuestros juegos se aprenden rápido, apetece volver a jugarlos y encajan en cualquier rato libre. Los mantenemos sencillos y justos, y respetamos tu tiempo y tu privacidad.
+
+game_page:
+  release: Lanzamiento
+  download: Descargar
+  screenshots: Capturas de pantalla
+  how_to_play: Cómo se juega
+  features: Características
+  app_store_label: Descárgalo en el
+  play_store_label: Disponible en
+  coming_soon: Próximamente
+  back: Todos los juegos
+  close: Cerrar
+
+support:
+  title: Soporte
+  intro: ¿Necesitas ayuda con alguno de nuestros juegos, has encontrado un error o tienes una idea? Estaremos encantados de ayudarte.
+  contact_heading: Contacto
+  contact_text: Envíanos un correo electrónico y te responderemos lo antes posible, normalmente en unos pocos días laborables.
+  contact_tip: "Consejo: indícanos el juego, tu dispositivo y la versión que usas. Así podremos resolver tu problema más rápido."
+  faq_heading: Preguntas frecuentes
+  faq:
+    - q: ¿Necesito conexión a internet para jugar?
+      a: No. Nuestros juegos funcionan completamente sin conexión.
+    - q: ¿Vuestros juegos tienen anuncios o compras dentro de la app?
+      a: Ace31 no tiene anuncios ni compras dentro de la app. Cualquier cambio futuro se indicará claramente en la página del juego en la tienda.
+    - q: ¿Necesito una cuenta?
+      a: No. Puedes empezar a jugar enseguida. No hay cuentas ni inicios de sesión.
+    - q: ¿Cómo cambio el idioma?
+      a: Ace31 usa el idioma de tu dispositivo. El juego está disponible en español, inglés, neerlandés, alemán y francés.
+    - q: Mi progreso o mis ajustes han desaparecido. ¿Qué ha pasado?
+      a: Los ajustes se guardan solo en tu dispositivo. Si eliminas la app, también se eliminan. No podemos recuperarlos porque nunca recibimos tus datos.
+    - q: He encontrado un error. ¿Cómo lo comunico?
+      a: Envíanos un correo con una breve descripción de lo que ha pasado y, si es posible, una captura de pantalla. Indica también el modelo de tu dispositivo y la versión del juego.
+
+privacy:
+  title: Política de privacidad
+  updated: "Última actualización: 26 de septiembre de 2026"
+  intro: Number Two Games respeta tu privacidad. Esta política explica qué información tratan nuestros juegos y este sitio web. En resumen, no recopilamos tus datos personales.
+  sections:
+    - title: Nuestros juegos
+      body: |
+        Nuestros juegos están diseñados para funcionar sin recopilar datos personales. No requieren cuenta, no muestran anuncios y no incluyen herramientas de análisis ni de seguimiento.
+
+        Los ajustes y el progreso, como el volumen del sonido o el estado del tutorial, se guardan solo en tu propio dispositivo. Estos datos nunca salen de tu dispositivo y no tenemos acceso a ellos. Al eliminar el juego, también se eliminan estos datos.
+    - title: Tiendas de aplicaciones
+      body: |
+        Nuestros juegos se distribuyen a través de la App Store de Apple y Google Play. Cuando descargas un juego, Apple o Google pueden tratar información sobre ti, como tu compra e informes de fallos anónimos si has activado compartirlos con los desarrolladores. Esto se rige por sus propias políticas de privacidad. Podemos recibir de estas tiendas estadísticas anónimas y agregadas, como el número de descargas por país.
+    - title: Este sitio web
+      body: |
+        Este sitio web no utiliza cookies, herramientas de análisis ni seguimiento. Está alojado en GitHub Pages. GitHub puede registrar información técnica, como tu dirección IP, para mantener el servicio seguro y en funcionamiento. Consulta la [declaración de privacidad de GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement) para más información.
+
+        Cuando eliges un idioma, tu elección se guarda en el almacenamiento local de tu navegador para mostrarte el idioma correcto en tu próxima visita. Esta información se queda en tu navegador.
+    - title: Correo electrónico
+      body: |
+        Si nos escribes por correo electrónico, usamos tu dirección y tu mensaje solo para responder a tu pregunta. No los compartimos con nadie y los eliminamos cuando ya no son necesarios.
+    - title: Menores
+      body: |
+        Nuestros juegos son aptos para jugadores de todas las edades. Como no recopilamos datos personales, tampoco recopilamos a sabiendas datos de menores.
+    - title: Tus derechos
+      body: |
+        Según las leyes de protección de datos, como el RGPD, tienes derecho a acceder, rectificar o suprimir los datos personales que tengamos sobre ti. Como solo tenemos los datos que nos envías por correo electrónico, basta con que te pongas en contacto con nosotros para ejercer estos derechos.
+    - title: Cambios
+      body: |
+        Podemos actualizar esta política cuando cambien nuestros juegos o este sitio web. La fecha que aparece al principio de esta página indica cuándo se actualizó por última vez.
+  contact: ¿Tienes preguntas sobre privacidad? Escríbenos a
+
+footer:
+  rights: Todos los derechos reservados.
+
+not_found:
+  title: Página no encontrada
+  text: Lo sentimos, no hemos encontrado esta página.
+  home: Volver a la página de inicio
+
+games_text:
+  ace31:
+    tagline: El clásico juego de cartas 31
+    short: El clásico juego de cartas 31 en tu móvil y tableta. Consigue la mejor mano de tres cartas, busca el 31 y resiste más que tus rivales de IA.
+    release: octubre de 2026
+    description:
+      - Ace31 lleva el clásico juego de cartas 31 a tu iPhone, iPad y dispositivo Android. Reúne la mejor mano de tres cartas del mismo palo, busca el 31 y sé el último jugador con monedas.
+      - Las rondas son cortas, las reglas se aprenden rápido y un tutorial sencillo te pone a jugar en nada. Sin necesidad de internet.
+    how_to_play:
+      - Cada jugador recibe 3 cartas. En la mesa hay 3 cartas descubiertas y 1 carta extra oculta.
+      - En tu turno, cambia una carta, llévate las tres cartas descubiertas o plántate para fijar tu mano.
+      - "Suma las cartas de un mismo palo: el as vale 11, las figuras 10 y el resto su número."
+      - Con 31 la ronda termina al instante. Un trío vale 30,5. Tres ases ganan a todo.
+      - La puntuación más baja pierde una moneda. Sin monedas, tienes una última oportunidad para seguir nadando.
+    features:
+      - Juega contra 1 a 5 rivales de IA que piensan y se equivocan como jugadores reales.
+      - Rondas cortas, perfectas para un descanso.
+      - Un tutorial interactivo explica cada regla paso a paso.
+      - Diseño colorido y táctil, pensado para jugar en horizontal.
+      - Música lounge relajante y sonidos de cartas agradables.
+      - Funciona sin conexión. Sin anuncios, sin cuentas y sin recopilación de datos.
+      - Disponible en español, inglés, neerlandés, alemán y francés.
+    screenshots:
+      table: La mesa de juego durante tu turno
+      tutorial: El tutorial interactivo
+      results: Los resultados al final de una ronda
+      six-players: Una partida con seis jugadores
+      menu: El menú principal

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+{%- assign lang = page.lang | default: site.default_lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign prefix = '/' | append: lang -%}
+{%- assign suffix = page.url | remove_first: prefix -%}
+{%- if page.page_title -%}
+  {%- assign full_title = page.page_title | append: ' · ' | append: site.title -%}
+{%- else -%}
+  {%- assign full_title = site.title | append: ' · ' | append: t.hero.title -%}
+{%- endif -%}
+{%- assign description = page.page_description | default: t.meta.description -%}
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ description | escape }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  {%- for l in site.languages %}
+  <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}/{{ l }}{{ suffix }}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ suffix }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ full_title | escape }}">
+  <meta property="og:description" content="{{ description | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}{{ page.og_image | default: '/assets/img/brand/og.png' }}">
+  <meta property="og:locale" content="{{ t.locale }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/img/brand/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/site.js" defer></script>
+</head>
+<body class="page-{{ page.layout }}">
+  <a class="skip-link" href="#main">{{ t.nav.skip }}</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/{{ lang }}/" aria-label="{{ site.title }}">
+        <img src="/assets/img/brand/mark.png" alt="" width="28" height="29">
+        <span>Number Two Games</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/{{ lang }}/#games">{{ t.nav.games }}</a>
+        <a href="/{{ lang }}/#studio">{{ t.nav.studio }}</a>
+        <a href="/{{ lang }}/support/"{% if page.layout == 'support' %} aria-current="page"{% endif %}>{{ t.nav.support }}</a>
+      </nav>
+      <details class="lang-switch">
+        <summary aria-label="{{ t.nav.language }}">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+          {{ lang | upcase }}
+        </summary>
+        <ul>
+          {%- for l in site.languages %}
+          <li><a href="/{{ l }}{{ suffix }}" hreflang="{{ l }}" lang="{{ l }}" data-lang="{{ l }}"{% if l == lang %} aria-current="true"{% endif %}>{{ site.data.i18n[l].name }}</a></li>
+          {%- endfor %}
+        </ul>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="/{{ lang }}/"><img src="/assets/img/brand/logo-full.png" alt="{{ site.title }}" width="140" height="99" loading="lazy"></a>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/{{ lang }}/#games">{{ t.nav.games }}</a>
+        <a href="/{{ lang }}/support/">{{ t.nav.support }}</a>
+        <a href="/{{ lang }}/privacy/">{{ t.nav.privacy }}</a>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </nav>
+      <ul class="footer-langs">
+        {%- for l in site.languages %}
+        <li><a href="/{{ l }}{{ suffix }}" hreflang="{{ l }}" lang="{{ l }}" data-lang="{{ l }}"{% if l == lang %} aria-current="true"{% endif %}>{{ site.data.i18n[l].name }}</a></li>
+        {%- endfor %}
+      </ul>
+      <p class="copyright">© {{ site.time | date: '%Y' }} Number Two Games. {{ t.footer.rights }}</p>
+    </div>
+  </footer>
+</body>
+</html>

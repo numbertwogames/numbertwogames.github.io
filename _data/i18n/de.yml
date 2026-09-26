@@ -1,0 +1,133 @@
+name: Deutsch
+locale: de_DE
+
+nav:
+  games: Spiele
+  studio: Studio
+  support: Support
+  privacy: Datenschutz
+  language: Sprache
+  skip: Zum Inhalt springen
+
+meta:
+  description: Number Two Games ist ein unabhängiges Spielestudio, das schnelle und leicht zu spielende Spiele für Smartphone und Tablet entwickelt.
+
+hero:
+  title: Schnelle Spiele. Leicht zu spielen.
+  text: Wir machen Spiele, die du in Sekunden verstehst und in wenigen Minuten spielst.
+  cta: Unsere Spiele ansehen
+
+games:
+  heading: Unsere Spiele
+  release: Erscheint
+  view: Zum Spiel
+  more_title: Mehr folgt
+  more_text: Wir arbeiten bereits an unserem nächsten Spiel. Bleib dran!
+
+studio:
+  heading: Über das Studio
+  paragraphs:
+    - Number Two Games ist ein kleines, unabhängiges Spielestudio. Wir entwickeln schnelle und leicht zu spielende Spiele für dein Smartphone und Tablet.
+    - Unsere Spiele sind schnell gelernt, machen immer wieder Spaß und passen in jede freie Minute. Wir halten sie einfach und fair und respektieren deine Zeit und deine Privatsphäre.
+
+game_page:
+  release: Erscheint
+  download: Herunterladen
+  screenshots: Screenshots
+  how_to_play: So wird gespielt
+  features: Funktionen
+  app_store_label: Laden im
+  play_store_label: Jetzt bei
+  coming_soon: Demnächst
+  back: Alle Spiele
+  close: Schließen
+
+support:
+  title: Support
+  intro: Brauchst du Hilfe mit einem unserer Spiele, hast du einen Fehler gefunden oder eine Idee? Wir helfen dir gerne.
+  contact_heading: Kontakt
+  contact_text: Schreib uns eine E-Mail und wir melden uns so schnell wie möglich, meist innerhalb weniger Werktage.
+  contact_tip: "Tipp: Nenne uns das Spiel, dein Gerät und die Version. So können wir dir schneller helfen."
+  faq_heading: Häufige Fragen
+  faq:
+    - q: Brauche ich eine Internetverbindung zum Spielen?
+      a: Nein. Unsere Spiele funktionieren komplett offline.
+    - q: Enthalten eure Spiele Werbung oder In-App-Käufe?
+      a: Ace31 hat keine Werbung und keine In-App-Käufe. Künftige Änderungen werden immer deutlich auf der Store-Seite des Spiels angegeben.
+    - q: Brauche ich ein Konto?
+      a: Nein. Du kannst sofort losspielen. Es gibt keine Konten und keine Anmeldung.
+    - q: Wie ändere ich die Sprache?
+      a: Ace31 verwendet die Sprache deines Geräts. Das Spiel ist auf Deutsch, Englisch, Niederländisch, Französisch und Spanisch verfügbar.
+    - q: Mein Fortschritt oder meine Einstellungen sind weg. Was ist passiert?
+      a: Einstellungen werden nur auf deinem Gerät gespeichert. Wenn du die App löschst, werden sie ebenfalls gelöscht. Wir können sie nicht wiederherstellen, da wir deine Daten nie erhalten.
+    - q: Ich habe einen Fehler gefunden. Wie melde ich ihn?
+      a: Schick uns eine E-Mail mit einer kurzen Beschreibung und, wenn möglich, einem Screenshot. Gib bitte auch dein Gerät und die Spielversion an.
+
+privacy:
+  title: Datenschutzerklärung
+  updated: "Zuletzt aktualisiert: 26. September 2026"
+  intro: Number Two Games respektiert deine Privatsphäre. Diese Erklärung beschreibt, welche Informationen unsere Spiele und diese Website verarbeiten. Kurz gesagt, wir erheben keine personenbezogenen Daten.
+  sections:
+    - title: Unsere Spiele
+      body: |
+        Unsere Spiele funktionieren, ohne personenbezogene Daten zu erheben. Sie benötigen kein Konto, zeigen keine Werbung und enthalten keine Analyse- oder Tracking-Tools.
+
+        Einstellungen und Fortschritt, zum Beispiel die Lautstärke oder der Stand des Tutorials, werden nur auf deinem eigenen Gerät gespeichert. Diese Daten verlassen dein Gerät nie und wir haben keinen Zugriff darauf. Wenn du das Spiel löschst, werden auch diese Daten gelöscht.
+    - title: App Stores
+      body: |
+        Unsere Spiele werden über den Apple App Store und Google Play vertrieben. Wenn du ein Spiel herunterlädst, können Apple oder Google Daten über dich verarbeiten, zum Beispiel deinen Kauf und anonyme Absturzberichte, wenn du das Teilen mit Entwicklern aktiviert hast. Dafür gelten deren eigene Datenschutzerklärungen. Wir erhalten von diesen Stores gegebenenfalls zusammengefasste, anonyme Statistiken, etwa die Anzahl der Downloads pro Land.
+    - title: Diese Website
+      body: |
+        Diese Website verwendet keine Cookies, keine Analyse und kein Tracking. Sie wird auf GitHub Pages gehostet. GitHub kann technische Informationen wie deine IP-Adresse protokollieren, um den Dienst sicher und funktionsfähig zu halten. Details findest du in der [Datenschutzerklärung von GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
+
+        Wenn du eine Sprache auswählst, wird deine Wahl im lokalen Speicher deines Browsers gespeichert, damit wir dir beim nächsten Besuch die richtige Sprache zeigen. Diese Information bleibt in deinem Browser.
+    - title: E-Mail
+      body: |
+        Wenn du uns per E-Mail kontaktierst, verwenden wir deine E-Mail-Adresse und Nachricht nur, um deine Frage zu beantworten. Wir geben sie nicht an andere weiter und löschen sie, sobald sie nicht mehr benötigt werden.
+    - title: Kinder
+      body: |
+        Unsere Spiele sind für Spieler jeden Alters geeignet. Da wir keine personenbezogenen Daten erheben, erheben wir auch nicht wissentlich Daten von Kindern.
+    - title: Deine Rechte
+      body: |
+        Nach Datenschutzgesetzen wie der DSGVO hast du das Recht auf Auskunft, Berichtigung und Löschung deiner personenbezogenen Daten, die wir gespeichert haben. Da wir nur Daten haben, die du uns per E-Mail sendest, kannst du uns dafür einfach kontaktieren.
+    - title: Änderungen
+      body: |
+        Wir können diese Erklärung anpassen, wenn sich unsere Spiele oder diese Website ändern. Das Datum oben auf dieser Seite zeigt, wann sie zuletzt aktualisiert wurde.
+  contact: Fragen zum Datenschutz? Schreib uns an
+
+footer:
+  rights: Alle Rechte vorbehalten.
+
+not_found:
+  title: Seite nicht gefunden
+  text: Diese Seite konnten wir leider nicht finden.
+  home: Zurück zur Startseite
+
+games_text:
+  ace31:
+    tagline: Das klassische Kartenspiel 31
+    short: Der Kartenspielklassiker 31 auf deinem Smartphone und Tablet. Sammle die beste Hand aus drei Karten, spiel auf 31 und halte länger durch als deine KI-Gegner.
+    release: Oktober 2026
+    description:
+      - Ace31 bringt den Kartenspielklassiker 31 (auch bekannt als Schwimmen oder Schnauz) auf dein iPhone, iPad und Android-Gerät. Sammle die stärkste Hand aus drei Karten einer Farbe, spiel auf 31 und sei der letzte Spieler mit Münzen.
+      - Die Runden sind kurz, die Regeln schnell gelernt und ein freundliches Tutorial hilft dir beim Einstieg. Kein Internet nötig.
+    how_to_play:
+      - Jeder Spieler erhält 3 Karten. Auf dem Tisch liegen 3 offene Karten und 1 verdeckte Bonuskarte.
+      - Tausche in deinem Zug eine Karte, nimm alle drei offenen Karten oder schiebe, um deine Hand festzulegen.
+      - "Zähle die Karten einer Farbe zusammen: Asse zählen 11, Bilder 10, alle anderen ihren Wert."
+      - Mit 31 endet die Runde sofort. Drei gleiche Karten zählen 30,5. Drei Asse schlagen alles.
+      - Die niedrigste Punktzahl verliert eine Münze. Ohne Münzen darfst du noch einmal schwimmen.
+    features:
+      - Spiele gegen 1 bis 5 KI-Gegner, die wie echte Spieler überlegen und Fehler machen.
+      - Kurze Runden für die Kaffeepause.
+      - Ein interaktives Tutorial erklärt jede Regel Schritt für Schritt.
+      - Farbenfrohes, touchfreundliches Design für das Querformat.
+      - Entspannte Lounge-Musik und schöne Kartengeräusche.
+      - Komplett offline spielbar. Keine Werbung, kein Konto, keine Datenerfassung.
+      - Verfügbar auf Deutsch, Englisch, Niederländisch, Französisch und Spanisch.
+    screenshots:
+      table: Der Spieltisch während deines Zuges
+      tutorial: Das interaktive Tutorial
+      results: Das Ergebnis am Ende einer Runde
+      six-players: Ein Spiel mit sechs Spielern
+      menu: Das Hauptmenü

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+<section class="page-header">
+  <div class="container narrow">
+    <h1>{{ t.support.title }}</h1>
+    <p class="lead">{{ t.support.intro }}</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container narrow">
+    <div class="card contact-card">
+      <h2>{{ t.support.contact_heading }}</h2>
+      <p>{{ t.support.contact_text }}</p>
+      <a class="button" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <p class="muted">{{ t.support.contact_tip }}</p>
+    </div>
+
+    <h2 class="section-title">{{ t.support.faq_heading }}</h2>
+    <div class="faq">
+      {%- for item in t.support.faq %}
+      <details>
+        <summary>{{ item.q }}</summary>
+        <p>{{ item.a }}</p>
+      </details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

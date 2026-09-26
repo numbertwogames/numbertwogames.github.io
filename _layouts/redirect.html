@@ -1,0 +1,48 @@
+{%- comment -%}
+Language-neutral entry point. Sends visitors to the matching page in their
+preferred language: a saved choice first, then the browser languages, then
+the default language. page.target is the path after the language prefix.
+{%- endcomment -%}
+<!DOCTYPE html>
+<html lang="{{ site.default_lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.data.i18n[site.default_lang].meta.description | escape }}">
+  <link rel="canonical" href="{{ site.url }}/{{ site.default_lang }}/{{ page.target }}">
+  {%- for l in site.languages %}
+  <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}/{{ l }}/{{ page.target }}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/brand/favicon-32.png">
+  <script>
+    (function () {
+      var supported = {{ site.languages | jsonify }};
+      var target = {{ page.target | jsonify }};
+      var lang = null;
+      try {
+        var saved = localStorage.getItem('lang');
+        if (supported.indexOf(saved) !== -1) lang = saved;
+      } catch (e) {}
+      if (!lang) {
+        var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+        for (var i = 0; i < prefs.length && !lang; i++) {
+          var code = String(prefs[i]).toLowerCase().split('-')[0];
+          if (supported.indexOf(code) !== -1) lang = code;
+        }
+      }
+      location.replace('/' + (lang || {{ site.default_lang | jsonify }}) + '/' + target + location.search + location.hash);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/{{ site.default_lang }}/{{ page.target }}"></noscript>
+  <style>body{font-family:system-ui,sans-serif;background:#000;color:#fff;display:grid;place-items:center;min-height:100vh;margin:0}a{color:#fff;margin:0 .5rem}</style>
+</head>
+<body>
+  <p>
+    {%- for l in site.languages %}
+    <a href="/{{ l }}/{{ page.target }}" hreflang="{{ l }}" lang="{{ l }}">{{ site.data.i18n[l].name }}</a>
+    {%- endfor %}
+  </p>
+</body>
+</html>

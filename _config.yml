@@ -1,0 +1,18 @@
+title: Number Two Games
+url: "https://numbertwogames.com"
+baseurl: ""
+email: support@numbertwogames.com
+
+# Order matters: the first language is the fallback for the root redirect.
+languages: [en, nl, de, fr, es]
+default_lang: en
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .jekyll-cache

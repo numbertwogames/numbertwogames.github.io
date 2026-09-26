@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for p in site.pages %}
+{%- if p.lang %}
+{%- assign prefix = '/' | append: p.lang %}
+{%- assign suffix = p.url | remove_first: prefix %}
+  <url>
+    <loc>{{ site.url }}{{ p.url }}</loc>
+    {%- for l in site.languages %}
+    <xhtml:link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}/{{ l }}{{ suffix }}"/>
+    {%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ suffix }}"/>
+  </url>
+{%- endif %}
+{%- endfor %}
+</urlset>

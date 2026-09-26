@@ -1,0 +1,133 @@
+name: Nederlands
+locale: nl_NL
+
+nav:
+  games: Games
+  studio: Studio
+  support: Support
+  privacy: Privacy
+  language: Taal
+  skip: Naar de inhoud
+
+meta:
+  description: Number Two Games is een onafhankelijke gamestudio die snelle en makkelijk te spelen games maakt voor telefoon en tablet.
+
+hero:
+  title: Snelle games. Makkelijk te spelen.
+  text: Wij maken games die je in een paar seconden oppakt en binnen een paar minuten speelt.
+  cta: Bekijk onze games
+
+games:
+  heading: Onze games
+  release: Verschijnt
+  view: Bekijk game
+  more_title: Er komt meer
+  more_text: We werken al aan onze volgende game. Houd ons in de gaten!
+
+studio:
+  heading: Over de studio
+  paragraphs:
+    - Number Two Games is een kleine, onafhankelijke gamestudio. We maken snelle en makkelijk te spelen games voor je telefoon en tablet.
+    - Onze games leer je snel, speel je graag opnieuw en passen in elk vrij moment. We houden ze eenvoudig en eerlijk, en we respecteren je tijd en je privacy.
+
+game_page:
+  release: Verschijnt
+  download: Downloaden
+  screenshots: Screenshots
+  how_to_play: Zo speel je
+  features: Kenmerken
+  app_store_label: Download in de
+  play_store_label: Ontdek het op
+  coming_soon: Binnenkort
+  back: Alle games
+  close: Sluiten
+
+support:
+  title: Support
+  intro: Hulp nodig met een van onze games, een fout gevonden of een idee? We helpen je graag.
+  contact_heading: Neem contact op
+  contact_text: Stuur ons een e-mail en we reageren zo snel mogelijk, meestal binnen een paar werkdagen.
+  contact_tip: "Tip: vertel ons om welke game, welk apparaat en welke versie het gaat. Zo kunnen we je sneller helpen."
+  faq_heading: Veelgestelde vragen
+  faq:
+    - q: Heb ik een internetverbinding nodig om te spelen?
+      a: Nee. Onze games werken volledig offline.
+    - q: Bevatten jullie games advertenties of in-app aankopen?
+      a: Ace31 heeft geen advertenties en geen in-app aankopen. Eventuele toekomstige wijzigingen worden altijd duidelijk vermeld op de pagina in de store.
+    - q: Heb ik een account nodig?
+      a: Nee. Je kunt meteen beginnen met spelen. Er zijn geen accounts en je hoeft nergens in te loggen.
+    - q: Hoe verander ik de taal?
+      a: Ace31 volgt de taal van je apparaat. De game is beschikbaar in het Nederlands, Engels, Duits, Frans en Spaans.
+    - q: Mijn voortgang of instellingen zijn weg. Wat is er gebeurd?
+      a: Instellingen worden alleen op je apparaat bewaard. Als je de app verwijdert, worden ze ook verwijderd. We kunnen ze niet herstellen, omdat we je gegevens nooit ontvangen.
+    - q: Ik heb een fout gevonden. Hoe meld ik die?
+      a: Stuur ons een e-mail met een korte beschrijving van wat er gebeurde en, als het kan, een screenshot. Vermeld ook je apparaat en de versie van de game.
+
+privacy:
+  title: Privacybeleid
+  updated: "Laatst bijgewerkt: 26 september 2026"
+  intro: Number Two Games respecteert je privacy. Dit beleid legt uit welke informatie onze games en deze website verwerken. Kort gezegd verzamelen we geen persoonsgegevens.
+  sections:
+    - title: Onze games
+      body: |
+        Onze games werken zonder persoonsgegevens te verzamelen. Je hebt geen account nodig, er zijn geen advertenties en er zitten geen analyse- of trackingtools in.
+
+        Instellingen en voortgang, zoals het geluidsvolume of de status van de uitleg, worden alleen op je eigen apparaat bewaard. Deze gegevens verlaten je apparaat nooit en wij hebben er geen toegang toe. Als je de game verwijdert, worden deze gegevens ook verwijderd.
+    - title: App stores
+      body: |
+        Onze games worden verspreid via de Apple App Store en Google Play. Wanneer je een game downloadt, kunnen Apple of Google gegevens over je verwerken, zoals je aankoop en anonieme crashrapporten als je delen met ontwikkelaars hebt ingeschakeld. Dit valt onder hun eigen privacybeleid. We kunnen van deze stores geanonimiseerde statistieken ontvangen, zoals het aantal downloads per land.
+    - title: Deze website
+      body: |
+        Deze website gebruikt geen cookies, analysetools of tracking. De website wordt gehost op GitHub Pages. GitHub kan technische gegevens vastleggen, zoals je IP-adres, om de dienst veilig en werkend te houden. Zie de [privacyverklaring van GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement) voor meer informatie.
+
+        Als je een taal kiest, wordt je keuze opgeslagen in de lokale opslag van je browser, zodat we bij je volgende bezoek de juiste taal tonen. Deze informatie blijft in je browser.
+    - title: E-mail
+      body: |
+        Als je ons een e-mail stuurt, gebruiken we je e-mailadres en bericht alleen om je vraag te beantwoorden. We delen ze niet met anderen en verwijderen ze wanneer ze niet meer nodig zijn.
+    - title: Kinderen
+      body: |
+        Onze games zijn geschikt voor spelers van alle leeftijden. Omdat we geen persoonsgegevens verzamelen, verzamelen we ook niet bewust gegevens van kinderen.
+    - title: Je rechten
+      body: |
+        Op grond van privacywetgeving zoals de AVG heb je het recht om persoonsgegevens die we over je hebben in te zien, te laten corrigeren of te laten verwijderen. Omdat we alleen gegevens hebben die je ons per e-mail stuurt, kun je hiervoor eenvoudig contact met ons opnemen.
+    - title: Wijzigingen
+      body: |
+        We kunnen dit beleid aanpassen wanneer onze games of deze website veranderen. De datum bovenaan deze pagina laat zien wanneer het voor het laatst is bijgewerkt.
+  contact: Vragen over privacy? Mail ons op
+
+footer:
+  rights: Alle rechten voorbehouden.
+
+not_found:
+  title: Pagina niet gevonden
+  text: Sorry, we konden deze pagina niet vinden.
+  home: Terug naar de homepage
+
+games_text:
+  ace31:
+    tagline: Het klassieke kaartspel 31-en
+    short: Het klassieke kaartspel 31-en op je telefoon en tablet. Maak de beste hand van drie kaarten, ga voor 31 en overleef je computertegenstanders.
+    release: oktober 2026
+    description:
+      - Ace31 brengt het klassieke kaartspel 31-en naar je iPhone, iPad en Android-apparaat. Verzamel de sterkste hand van drie kaarten in één kleur, ga voor 31 en wees de laatste speler met munten.
+      - De rondes zijn kort, de regels leer je snel en een duidelijke uitleg helpt je meteen op weg. Geen internet nodig.
+    how_to_play:
+      - Iedere speler krijgt 3 kaarten. Op tafel liggen 3 open kaarten en 1 verborgen bonuskaart.
+      - Ruil in je beurt een kaart, pak alle drie de open kaarten of pas om je hand vast te zetten.
+      - "Tel de kaarten van één kleur op: azen tellen 11, plaatjes 10 en de rest hun getal."
+      - Heb je 31, dan eindigt de ronde meteen. Drie dezelfde kaarten scoren 30,5. Drie azen verslaan alles.
+      - De laagste score verliest een munt. Ben je door je munten heen, dan mag je nog één keer zwemmen.
+    features:
+      - Speel tegen 1 tot 5 computertegenstanders die nadenken en fouten maken zoals echte spelers.
+      - Korte rondes, perfect voor tussendoor.
+      - Een interactieve uitleg leert je stap voor stap alle regels.
+      - Vrolijk ontwerp, gemaakt voor aanraking en liggend spelen.
+      - Rustige loungemuziek en fijne kaartgeluiden.
+      - Volledig offline. Geen advertenties, geen account, geen gegevensverzameling.
+      - Beschikbaar in het Nederlands, Engels, Duits, Frans en Spaans.
+    screenshots:
+      table: De speltafel tijdens jouw beurt
+      tutorial: De interactieve uitleg
+      results: De uitslag aan het einde van een ronde
+      six-players: Een spel met zes spelers
+      menu: Het hoofdmenu

@@ -1,0 +1,11 @@
+# Studio games shown on the landing page, in display order.
+# Leave a store URL empty to show a "coming soon" button instead of a link.
+- id: ace31
+  name: Ace31
+  logo: /assets/img/games/ace31/logo.png
+  icon: /assets/img/games/ace31/icon.png
+  background: /assets/img/games/ace31/background.webp
+  platforms: [iOS, Android]
+  app_store_url: ""
+  play_store_url: ""
+  screenshots: [table, tutorial, results, six-players, menu]

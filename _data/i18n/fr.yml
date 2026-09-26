@@ -1,0 +1,133 @@
+name: Français
+locale: fr_FR
+
+nav:
+  games: Jeux
+  studio: Studio
+  support: Assistance
+  privacy: Confidentialité
+  language: Langue
+  skip: Aller au contenu
+
+meta:
+  description: Number Two Games est un studio de jeux indépendant qui crée des jeux rapides et faciles à jouer pour téléphone et tablette.
+
+hero:
+  title: Des jeux rapides. Faciles à jouer.
+  text: Nous créons des jeux que l'on prend en main en quelques secondes et que l'on joue en quelques minutes.
+  cta: Découvrir nos jeux
+
+games:
+  heading: Nos jeux
+  release: Sortie
+  view: Voir le jeu
+  more_title: D'autres à venir
+  more_text: Nous travaillons déjà sur notre prochain jeu. Restez à l'écoute !
+
+studio:
+  heading: À propos du studio
+  paragraphs:
+    - Number Two Games est un petit studio de jeux indépendant. Nous créons des jeux rapides et faciles à jouer pour votre téléphone et votre tablette.
+    - Nos jeux s'apprennent vite, donnent envie d'y revenir et trouvent leur place dans chaque moment libre. Nous les voulons simples et honnêtes, dans le respect de votre temps et de votre vie privée.
+
+game_page:
+  release: Sortie
+  download: Télécharger
+  screenshots: Captures d'écran
+  how_to_play: Comment jouer
+  features: Points forts
+  app_store_label: Télécharger dans l'
+  play_store_label: Disponible sur
+  coming_soon: Bientôt disponible
+  back: Tous les jeux
+  close: Fermer
+
+support:
+  title: Assistance
+  intro: Besoin d'aide avec l'un de nos jeux, un bug à signaler ou une idée à partager ? Nous sommes là pour vous aider.
+  contact_heading: Nous contacter
+  contact_text: Envoyez-nous un e-mail et nous vous répondrons dès que possible, généralement sous quelques jours ouvrés.
+  contact_tip: "Astuce : indiquez-nous le jeu, votre appareil et la version utilisée. Cela nous aide à résoudre votre problème plus rapidement."
+  faq_heading: Questions fréquentes
+  faq:
+    - q: Ai-je besoin d'une connexion internet pour jouer ?
+      a: Non. Nos jeux fonctionnent entièrement hors ligne.
+    - q: Vos jeux contiennent-ils des publicités ou des achats intégrés ?
+      a: Ace31 ne contient ni publicité ni achats intégrés. Tout changement futur sera clairement indiqué sur la page du jeu dans la boutique.
+    - q: Ai-je besoin d'un compte ?
+      a: Non. Vous pouvez commencer à jouer immédiatement. Il n'y a ni compte ni connexion.
+    - q: Comment changer la langue ?
+      a: Ace31 utilise la langue de votre appareil. Le jeu est disponible en français, anglais, néerlandais, allemand et espagnol.
+    - q: Ma progression ou mes réglages ont disparu. Que s'est-il passé ?
+      a: Les réglages sont enregistrés uniquement sur votre appareil. Supprimer l'application les supprime aussi. Nous ne pouvons pas les restaurer, car nous ne recevons jamais vos données.
+    - q: J'ai trouvé un bug. Comment le signaler ?
+      a: Envoyez-nous un e-mail avec une courte description de ce qui s'est passé et, si possible, une capture d'écran. Indiquez aussi votre modèle d'appareil et la version du jeu.
+
+privacy:
+  title: Politique de confidentialité
+  updated: "Dernière mise à jour : 26 septembre 2026"
+  intro: Number Two Games respecte votre vie privée. Cette politique explique quelles informations nos jeux et ce site web traitent. En résumé, nous ne collectons pas vos données personnelles.
+  sections:
+    - title: Nos jeux
+      body: |
+        Nos jeux sont conçus pour fonctionner sans collecter de données personnelles. Ils ne nécessitent pas de compte, n'affichent pas de publicité et n'intègrent aucun outil d'analyse ou de suivi.
+
+        Les réglages et la progression, comme le volume sonore ou l'état du tutoriel, sont enregistrés uniquement sur votre appareil. Ces données ne quittent jamais votre appareil et nous n'y avons pas accès. Supprimer le jeu supprime également ces données.
+    - title: Boutiques d'applications
+      body: |
+        Nos jeux sont distribués via l'App Store d'Apple et Google Play. Lorsque vous téléchargez un jeu, Apple ou Google peuvent traiter des informations vous concernant, comme votre achat et des rapports de plantage anonymes si vous avez activé le partage avec les développeurs. Ces traitements relèvent de leurs propres politiques de confidentialité. Nous pouvons recevoir de ces boutiques des statistiques anonymes et agrégées, comme le nombre de téléchargements par pays.
+    - title: Ce site web
+      body: |
+        Ce site web n'utilise ni cookies, ni outils d'analyse, ni suivi. Il est hébergé sur GitHub Pages. GitHub peut enregistrer des informations techniques, comme votre adresse IP, afin d'assurer la sécurité et le bon fonctionnement du service. Consultez la [déclaration de confidentialité de GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement) pour en savoir plus.
+
+        Lorsque vous choisissez une langue, votre choix est enregistré dans le stockage local de votre navigateur afin d'afficher la bonne langue lors de votre prochaine visite. Cette information reste dans votre navigateur.
+    - title: E-mail
+      body: |
+        Si vous nous contactez par e-mail, nous utilisons votre adresse et votre message uniquement pour répondre à votre question. Nous ne les partageons avec personne et les supprimons lorsqu'ils ne sont plus nécessaires.
+    - title: Enfants
+      body: |
+        Nos jeux conviennent aux joueurs de tous âges. Comme nous ne collectons pas de données personnelles, nous ne collectons pas non plus sciemment de données concernant des enfants.
+    - title: Vos droits
+      body: |
+        En vertu des lois sur la protection des données, comme le RGPD, vous avez le droit d'accéder aux données personnelles que nous détenons sur vous, de les rectifier ou de les supprimer. Comme nous ne détenons que les données que vous nous envoyez par e-mail, il vous suffit de nous contacter pour exercer ces droits.
+    - title: Modifications
+      body: |
+        Nous pouvons mettre à jour cette politique lorsque nos jeux ou ce site web évoluent. La date en haut de cette page indique la dernière mise à jour.
+  contact: Des questions sur la confidentialité ? Écrivez-nous à
+
+footer:
+  rights: Tous droits réservés.
+
+not_found:
+  title: Page introuvable
+  text: Désolé, nous n'avons pas trouvé cette page.
+  home: Retour à l'accueil
+
+games_text:
+  ace31:
+    tagline: Le jeu de cartes classique 31
+    short: Le jeu de cartes classique du 31 sur votre téléphone et votre tablette. Formez la meilleure main de trois cartes, visez 31 et survivez à vos adversaires IA.
+    release: octobre 2026
+    description:
+      - Ace31 apporte le jeu de cartes classique du 31 sur votre iPhone, votre iPad et votre appareil Android. Formez la meilleure main de trois cartes d'une même couleur, visez 31 et soyez le dernier joueur à garder des jetons.
+      - Les manches sont courtes, les règles s'apprennent vite et un tutoriel accueillant vous lance en un rien de temps. Aucune connexion requise.
+    how_to_play:
+      - Chaque joueur reçoit 3 cartes. La table présente 3 cartes visibles et 1 carte bonus cachée.
+      - À votre tour, échangez une carte, prenez les trois cartes visibles ou passez pour figer votre main.
+      - "Additionnez les cartes d'une même couleur : l'as vaut 11, les figures 10, les autres leur valeur."
+      - Avec 31, la manche s'arrête aussitôt. Un brelan vaut 30,5. Trois as battent tout.
+      - Le score le plus bas perd un jeton. Sans jeton, vous avez une dernière chance de rester en jeu.
+    features:
+      - Affrontez de 1 à 5 adversaires IA qui réfléchissent et se trompent comme de vrais joueurs.
+      - Des manches courtes, idéales pour une pause.
+      - Un tutoriel interactif explique chaque règle pas à pas.
+      - Un design coloré, pensé pour le tactile et le mode paysage.
+      - Une musique lounge apaisante et des sons de cartes agréables.
+      - Fonctionne entièrement hors ligne. Sans publicité, sans compte, sans collecte de données.
+      - Disponible en français, anglais, néerlandais, allemand et espagnol.
+    screenshots:
+      table: La table de jeu pendant votre tour
+      tutorial: Le tutoriel interactif
+      results: Les résultats à la fin d'une manche
+      six-players: Une partie à six joueurs
+      menu: Le menu principal

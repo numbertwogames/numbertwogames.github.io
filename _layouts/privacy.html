@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+<section class="page-header">
+  <div class="container narrow">
+    <h1>{{ t.privacy.title }}</h1>
+    <p class="muted">{{ t.privacy.updated }}</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container narrow prose">
+    <p class="lead">{{ t.privacy.intro }}</p>
+    {%- for s in t.privacy.sections %}
+    <h2>{{ s.title }}</h2>
+    {{ s.body | markdownify }}
+    {%- endfor %}
+    <p class="contact-line">{{ t.privacy.contact }} <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+  </div>
+</section>
