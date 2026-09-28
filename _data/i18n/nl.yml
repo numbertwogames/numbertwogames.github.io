@@ -48,6 +48,9 @@ support:
   contact_heading: "Laat iets van je horen"
   contact_text: Stuur ons een e-mail en we reageren zo snel mogelijk, meestal binnen een paar werkdagen.
   contact_tip: "Tip: vertel ons om welke game, welk apparaat en welke versie het gaat. Zo kunnen we je sneller helpen."
+  discord_heading: "Kom erbij op Discord"
+  discord_text: "Chat met het team en andere spelers, deel je feedback en hoor als eerste over nieuwe games."
+  discord_button: "Word lid van onze Discord"
   faq_heading: Veelgestelde vragen
   faq:
     - q: Heb ik een internetverbinding nodig om te spelen?

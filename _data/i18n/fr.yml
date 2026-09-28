@@ -48,6 +48,9 @@ support:
   contact_heading: "Écrivez-nous"
   contact_text: Envoyez-nous un e-mail et nous vous répondrons dès que possible, généralement sous quelques jours ouvrés.
   contact_tip: "Astuce : indiquez-nous le jeu, votre appareil et la version utilisée. Cela nous aide à résoudre votre problème plus rapidement."
+  discord_heading: "Rejoignez-nous sur Discord"
+  discord_text: "Discutez avec l’équipe et d’autres joueurs, partagez vos retours et soyez les premiers informés de nos nouveaux jeux."
+  discord_button: "Rejoindre notre Discord"
   faq_heading: Questions fréquentes
   faq:
     - q: Ai-je besoin d'une connexion internet pour jouer ?

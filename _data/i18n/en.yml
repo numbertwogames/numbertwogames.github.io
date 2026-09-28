@@ -48,6 +48,9 @@ support:
   contact_heading: "Drop us a line"
   contact_text: Send us an email and we will get back to you as soon as possible, usually within a few working days.
   contact_tip: "Tip: tell us which game, which device and which version you are using. That helps us solve your problem faster."
+  discord_heading: "Join us on Discord"
+  discord_text: "Chat with the team and other players, share feedback and be the first to hear about new games."
+  discord_button: "Join our Discord"
   faq_heading: Frequently asked questions
   faq:
     - q: Do I need an internet connection to play?

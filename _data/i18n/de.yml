@@ -48,6 +48,9 @@ support:
   contact_heading: "Schreib uns"
   contact_text: Schreib uns eine E-Mail und wir melden uns so schnell wie möglich, meist innerhalb weniger Werktage.
   contact_tip: "Tipp: Nenne uns das Spiel, dein Gerät und die Version. So können wir dir schneller helfen."
+  discord_heading: "Komm auf unseren Discord"
+  discord_text: "Chatte mit dem Team und anderen Spielern, teile dein Feedback und erfahre als Erstes von neuen Spielen."
+  discord_button: "Discord beitreten"
   faq_heading: Häufige Fragen
   faq:
     - q: Brauche ich eine Internetverbindung zum Spielen?

@@ -2,6 +2,7 @@ title: Number Two Games
 url: "https://numbertwogames.com"
 baseurl: ""
 email: support@numbertwogames.com
+discord: https://discord.gg/pFKFEFQtbh
 
 # Order matters: the first language is the fallback for the root redirect.
 languages: [en, nl]

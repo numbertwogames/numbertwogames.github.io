@@ -17,6 +17,12 @@ layout: default
       <p class="muted">{{ t.support.contact_tip }}</p>
     </div>
 
+    <div class="card contact-card">
+      <h2>{{ t.support.discord_heading }}</h2>
+      <p>{{ t.support.discord_text }}</p>
+      <a class="button" href="{{ site.discord }}" rel="noopener">{{ t.support.discord_button }}</a>
+    </div>
+
     <h2 class="section-title">{{ t.support.faq_heading }}</h2>
     <div class="faq">
       {%- for item in t.support.faq %}
