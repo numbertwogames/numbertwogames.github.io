@@ -19,7 +19,7 @@ hero:
 
 games:
   heading: "Recién salidos"
-  release: Lanzamiento
+  release: Lanzado en
   view: Ver juego
   more_title: "Viene más"
   more_text: "Estamos apretando fuerte con nuestro próximo juego. ¡Aguanta un poco!"
@@ -31,7 +31,7 @@ studio:
     - "Nuestros juegos se aprenden rápido, apetece volver a jugarlos y encajan en cualquier rato libre. Sí, también en ese. Sencillos, justos y respetuosos con tu tiempo y tu privacidad. Diversión limpia y sin complicaciones."
 
 game_page:
-  release: Lanzamiento
+  release: Lanzado en
   download: Descargar
   screenshots: Capturas de pantalla
   how_to_play: Cómo se juega

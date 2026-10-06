@@ -19,7 +19,7 @@ hero:
 
 games:
   heading: "Fresh drops"
-  release: Release
+  release: Released
   view: View game
   more_title: "More coming soon"
   more_text: "We are pushing hard on our next game. Hold tight!"
@@ -31,7 +31,7 @@ studio:
     - "Our games are quick to learn, fun to replay and fit into any spare moment. Yes, that one too. Simple, fair and respectful of your time and your privacy. Just good, clean fun."
 
 game_page:
-  release: Release
+  release: Released
   download: Download
   screenshots: Screenshots
   how_to_play: How to play

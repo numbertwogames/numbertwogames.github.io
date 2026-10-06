@@ -19,7 +19,7 @@ hero:
 
 games:
   heading: "Frisch aus der Presse"
-  release: Erscheint
+  release: Erschienen im
   view: Zum Spiel
   more_title: "Da kommt noch mehr"
   more_text: "Wir drücken schon kräftig an unserem nächsten Spiel. Bleib dran!"
@@ -31,7 +31,7 @@ studio:
     - "Unsere Spiele sind schnell gelernt, machen immer wieder Spaß und passen in jede freie Minute. Ja, auch in diese. Einfach, fair und mit Respekt für deine Zeit und deine Privatsphäre. Einfach sauberer Spaß."
 
 game_page:
-  release: Erscheint
+  release: Erschienen im
   download: Herunterladen
   screenshots: Screenshots
   how_to_play: So wird gespielt

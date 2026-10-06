@@ -19,7 +19,7 @@ hero:
 
 games:
   heading: "Vers van de pers"
-  release: Verschijnt
+  release: Verschenen in
   view: Bekijk game
   more_title: "Er komt meer aan"
   more_text: "We zitten al flink te persen op onze volgende game. Nog even geduld!"
@@ -31,7 +31,7 @@ studio:
     - "Onze games leer je snel, speel je graag opnieuw en passen in elk vrij moment. Ja, ook dát moment. Eenvoudig, eerlijk en met respect voor je tijd en je privacy. Gewoon schoon plezier."
 
 game_page:
-  release: Verschijnt
+  release: Verschenen in
   download: Downloaden
   screenshots: Screenshots
   how_to_play: Zo speel je

@@ -19,7 +19,7 @@ hero:
 
 games:
   heading: "Tout frais sortis"
-  release: Sortie
+  release: Sorti en
   view: Voir le jeu
   more_title: "D'autres arrivent"
   more_text: "Nous poussons fort sur notre prochain jeu. Encore un petit effort !"
@@ -31,7 +31,7 @@ studio:
     - "Nos jeux s'apprennent vite, donnent envie d'y revenir et trouvent leur place dans chaque moment libre. Oui, même celui-là. Simples, honnêtes et respectueux de votre temps et de votre vie privée. Du plaisir tout propre."
 
 game_page:
-  release: Sortie
+  release: Sorti en
   download: Télécharger
   screenshots: Captures d'écran
   how_to_play: Comment jouer
