@@ -20,6 +20,7 @@ hero:
 games:
   heading: "Fresh drops"
   release: Released
+  upcoming: Coming in
   view: View game
   more_title: "More coming soon"
   more_text: "We are pushing hard on our next game. Hold tight!"
@@ -32,6 +33,8 @@ studio:
 
 game_page:
   release: Released
+  upcoming: Coming in
+  upcoming_heading: "Coming soon: "
   download: Download
   screenshots: Screenshots
   how_to_play: How to play
@@ -134,3 +137,21 @@ games_text:
       results: The results at the end of a round
       six-players: A game with six players
       menu: The main menu
+  calm-down:
+    tagline: A quick game of memory and timing
+    short: Remember four hidden cards, trade high numbers away and knock when you think you have the lowest total.
+    release: November 2026
+    description:
+      - Remember four face-down cards, swap out high numbers and call the round when you think your total is lowest.
+      - Play quick rounds against fair-minded AI opponents, with Peek, Swap and Draw 2 power cards.
+    how_to_play:
+      - Peek at two of your four face-down cards, then try to remember them.
+      - Draw a card or take the discard, then swap cards to lower your total.
+      - Use Peek, Swap and Draw 2 powers to turn the round in your favor.
+      - Knock when you think your row is the calmest. The lowest total wins.
+    features:
+      - Play solo against 1 to 3 AI opponents.
+      - Choose Fast or Classic mode.
+      - Fair AI that only uses information it could have seen.
+      - Quick rounds designed for a short break.
+      - Play offline, with no ads or in-app purchases.

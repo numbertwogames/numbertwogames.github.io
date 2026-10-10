@@ -20,14 +20,23 @@ layout: default
     <div class="tiles">
       {%- for game in site.data.games %}
       {%- assign gt = t.games_text[game.id] %}
+      {%- assign game_name = game.name %}
+      {%- assign game_logo = game.logo %}
+      {%- if lang == 'nl' %}
+        {%- assign game_name = game.name_nl | default: game_name %}
+        {%- assign game_logo = game.logo_nl | default: game_logo %}
+      {%- endif %}
       <a class="tile tile-game tile-{{ game.id }}" href="/{{ lang }}/{{ game.id }}/" style="--tile-bg: url('{{ game.background }}')">
-        <div class="tile-art">
-          <img src="{{ game.logo }}" alt="{{ game.name }}" width="293" height="209">
+        <div class="tile-art{% if game.banner_art %} tile-art-characters{% endif %}">
+          <img src="{{ game_logo }}" alt="{{ game_name }}" width="293" height="209">
+          {%- if game.banner_art %}
+          <img class="tile-characters" src="{{ game.banner_art }}" alt="" width="870" height="910" loading="lazy">
+          {%- endif %}
         </div>
         <div class="tile-body">
-          <h3>{{ game.name }}</h3>
+          <h3>{{ game_name }}</h3>
           <p>{{ gt.short }}</p>
-          <p class="release"><span>{{ t.games.release }}</span> <strong>{{ gt.release }}</strong></p>
+          <p class="release"><span>{% if game.upcoming %}{{ t.games.upcoming }}{% else %}{{ t.games.release }}{% endif %}</span> <strong>{{ gt.release }}</strong></p>
           <span class="tile-link">{{ t.games.view }} <span aria-hidden="true">→</span></span>
         </div>
       </a>

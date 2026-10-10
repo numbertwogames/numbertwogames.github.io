@@ -21,8 +21,13 @@ Visiting `numbertwogames.com` (or `/privacy/`, `/support/`, `/ace31/`) redirects
 - **Add store links:** set `app_store_url` and `play_store_url` in `_data/games.yml`. Empty values show a "coming soon" button.
 - **Change text:** edit the matching file in `_data/i18n/`. Keep the keys the same in every language.
 - **Add a game:** add an entry to `_data/games.yml`, add its text under `games_text` in each language file, add images in `assets/img/games/<id>/`, and create `<lang>/<id>/index.html` for each language plus a root `<id>/index.html` redirect (copy the Ace31 files).
+- **Show characters in a game banner:** set `banner_art` in `_data/games.yml` to a transparent image. It appears beside the logo on the homepage and below it in the game-page header.
 
 ## Run locally
+
+The local preview uses Jekyll 4.4 and supports Ruby 4. GitHub Pages continues to
+build the deployed site with its own Jekyll environment; the local Gemfile does
+not change the deployment settings.
 
 ```bash
 bundle install

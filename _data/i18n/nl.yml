@@ -20,6 +20,7 @@ hero:
 games:
   heading: "Vers van de pers"
   release: Verschenen in
+  upcoming: Verwacht in
   view: Bekijk game
   more_title: "Er komt meer aan"
   more_text: "We zitten al flink te persen op onze volgende game. Nog even geduld!"
@@ -32,6 +33,8 @@ studio:
 
 game_page:
   release: Verschenen in
+  upcoming: Verwacht in
+  upcoming_heading: "Komt eraan: "
   download: Downloaden
   screenshots: Screenshots
   how_to_play: Zo speel je
@@ -134,3 +137,21 @@ games_text:
       results: De uitslag aan het einde van een ronde
       six-players: Een spel met zes spelers
       menu: Het hoofdmenu
+  calm-down:
+    tagline: Een snel kaartspel vol geheugen en timing
+    short: Onthoud vier gedekte kaarten, ruil hoge getallen weg en beëindig de ronde als je denkt dat je de laagste score hebt.
+    release: november 2026
+    description:
+      - Onthoud vier gedekte kaarten, ruil hoge getallen weg en beëindig de ronde wanneer je denkt dat je de laagste score hebt.
+      - Speel snelle rondes tegen eerlijke computertegenstanders, met speciale kaarten om te kijken, ruilen en extra kaarten te trekken.
+    how_to_play:
+      - Bekijk twee van je vier gedekte kaarten en probeer ze te onthouden.
+      - Trek een kaart of pak de aflegstapel, en ruil kaarten om je score te verlagen.
+      - Gebruik speciale kaarten om de ronde naar je hand te zetten.
+      - Beëindig de ronde als je denkt dat jouw rij het rustigst is. De laagste score wint.
+    features:
+      - Speel alleen tegen 1 tot 3 computertegenstanders.
+      - Kies voor de snelle of klassieke spelstand.
+      - Eerlijke computertegenstanders die alleen informatie gebruiken die ze zelf konden zien.
+      - Snelle rondes, perfect voor tussendoor.
+      - Speel offline, zonder advertenties of in-app aankopen.

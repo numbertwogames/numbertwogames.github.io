@@ -221,6 +221,13 @@ a.tile:hover .tile-link span { transform: translateX(4px); }
 .tile-game .tile-art img { width: min(60%, 320px); filter: drop-shadow(0 8px 16px rgba(0,0,0,.2)); transition: transform .3s cubic-bezier(.34,1.56,.64,1); }
 a.tile-game:hover .tile-art img { transform: scale(1.08) rotate(-4deg); }
 
+.tile-game .tile-art-characters { position: relative; padding: 1rem; overflow: hidden; }
+.tile-art-characters > img:first-child { width: 51%; justify-self: start; z-index: 1; }
+.tile-game .tile-art-characters .tile-characters {
+  position: absolute; right: 0; bottom: -8%; height: 105%; width: auto; max-width: 54%;
+  object-fit: contain; object-position: bottom;
+}
+
 .tile-more { background: var(--choc); color: var(--cream); }
 .tile-more .tile-art {
   background: repeating-linear-gradient(-45deg, var(--choc) 0 18px, #86491a 18px 36px);
@@ -271,6 +278,9 @@ a.tile-game:hover .tile-art img { transform: scale(1.08) rotate(-4deg); }
 }
 .game-hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 2.5rem; align-items: center; }
 .game-logo { width: min(100%, 340px); justify-self: center; filter: drop-shadow(0 12px 24px rgba(0,0,0,.25)); animation: wobble 5s ease-in-out infinite; }
+.game-banner-art { display: grid; justify-items: center; gap: .75rem; }
+.game-banner-art .game-logo { width: min(75%, 300px); animation: none; }
+.game-characters { width: min(85%, 330px); filter: drop-shadow(0 8px 12px rgba(0,0,0,.15)); }
 .game-hero-text {
   background: #fff; border-radius: var(--radius); padding: 2rem 2.2rem;
   border: var(--border); box-shadow: var(--pop-big); transform: rotate(-1deg);

@@ -5,13 +5,26 @@ layout: default
 {%- assign t = site.data.i18n[lang] -%}
 {%- assign game = site.data.games | where: 'id', page.game | first -%}
 {%- assign gt = t.games_text[game.id] -%}
+{%- assign game_name = game.name -%}
+{%- assign game_logo = game.logo -%}
+{%- if lang == 'nl' -%}
+  {%- assign game_name = game.name_nl | default: game_name -%}
+  {%- assign game_logo = game.logo_nl | default: game_logo -%}
+{%- endif -%}
 <section class="game-hero game-{{ game.id }}" style="--game-bg: url('{{ game.background }}')">
   <div class="container game-hero-inner">
-    <img class="game-logo" src="{{ game.logo }}" alt="{{ game.name }}" width="293" height="209">
+    {%- if game.banner_art %}
+    <div class="game-banner-art">
+      <img class="game-logo" src="{{ game_logo }}" alt="{{ game_name }}" width="1024" height="{% if lang == 'nl' %}541{% else %}625{% endif %}">
+      <img class="game-characters" src="{{ game.banner_art }}" alt="" width="870" height="910">
+    </div>
+    {%- else %}
+    <img class="game-logo" src="{{ game_logo }}" alt="{{ game_name }}" width="293" height="209">
+    {%- endif %}
     <div class="game-hero-text">
-      <h1>{{ game.name }}</h1>
+      <h1>{{ game_name }}</h1>
       <p class="tagline">{{ gt.tagline }}</p>
-      <p class="release"><span>{{ t.game_page.release }}</span> <strong>{{ gt.release }}</strong></p>
+      <p class="release"><span>{% if game.upcoming %}{{ t.game_page.upcoming }}{% else %}{{ t.game_page.release }}{% endif %}</span> <strong>{{ gt.release }}</strong></p>
       <div class="store-buttons" aria-label="{{ t.game_page.download }}">
         {%- include store-button.html store="app" url=game.app_store_url %}
         {%- include store-button.html store="play" url=game.play_store_url %}
@@ -28,25 +41,26 @@ layout: default
   </div>
 </section>
 
-<section class="section section-screens" aria-labelledby="screens-title">
-  <div class="container">
-    <h2 id="screens-title" class="section-title">{{ t.game_page.screenshots }}</h2>
-  </div>
-  <ul class="screens">
-    {%- for s in game.screenshots %}
-    {%- assign src = '/assets/img/games/' | append: game.id | append: '/screens/' | append: lang | append: '/' | append: s | append: '.webp' %}
-    <li>
-      <a href="{{ src }}" class="screen" data-lightbox>
-        <img src="{{ src }}" alt="{{ gt.screenshots[s] }}" width="1600" height="736" loading="lazy">
-      </a>
-    </li>
-    {%- endfor %}
-  </ul>
-  <dialog class="lightbox">
-    <form method="dialog"><button class="lightbox-close" aria-label="{{ t.game_page.close }}">×</button></form>
-    <img src="" alt="">
-  </dialog>
-</section>
+{%- if game.screenshots.size > 0 %}
+  <section class="section section-screens" aria-labelledby="screens-title">
+    <div class="container">
+      <h2 id="screens-title" class="section-title">{{ t.game_page.screenshots }}</h2>
+    </div>
+    <ul class="screens">
+      {%- for s in game.screenshots %}
+      {%- assign src = '/assets/img/games/' | append: game.id | append: '/screens/' | append: lang | append: '/' | append: s | append: '.webp' %}
+      <li>
+        <a href="{{ src }}" class="screen" data-lightbox>
+          <img src="{{ src }}" alt="{{ gt.screenshots[s] }}" width="1600" height="736" loading="lazy">
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+    <dialog class="lightbox">
+      <form method="dialog"><button class="lightbox-close" aria-label="{{ t.game_page.close }}">×</button></form>
+    </dialog>
+  </section>
+{%- endif %}
 
 <section class="section">
   <div class="container columns">
@@ -73,8 +87,8 @@ layout: default
   <div class="container download-inner">
     <img src="{{ game.icon }}" alt="" width="120" height="120" loading="lazy" class="app-icon">
     <div>
-      <h2>{{ t.game_page.download }} {{ game.name }}</h2>
-      <p class="release"><span>{{ t.game_page.release }}</span> <strong>{{ gt.release }}</strong></p>
+      <h2>{% if game.upcoming %}{{ t.game_page.upcoming_heading }}{{ game_name }}{% else %}{{ t.game_page.download }} {{ game_name }}{% endif %}</h2>
+      <p class="release"><span>{% if game.upcoming %}{{ t.game_page.upcoming }}{% else %}{{ t.game_page.release }}{% endif %}</span> <strong>{{ gt.release }}</strong></p>
       <div class="store-buttons">
         {%- include store-button.html store="app" url=game.app_store_url %}
         {%- include store-button.html store="play" url=game.play_store_url %}
@@ -90,7 +104,7 @@ layout: default
 {
   "@context": "https://schema.org",
   "@type": "MobileApplication",
-  "name": {{ game.name | jsonify }},
+  "name": {{ game_name | jsonify }},
   "description": {{ gt.short | jsonify }},
   "applicationCategory": "GameApplication",
   "operatingSystem": {{ game.platforms | join: ', ' | jsonify }},

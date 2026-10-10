@@ -23,13 +23,14 @@
   // Screenshot lightbox.
   var dialog = document.querySelector('dialog.lightbox');
   if (dialog && typeof dialog.showModal === 'function') {
-    var img = dialog.querySelector('img');
+    var img = document.createElement('img');
     document.querySelectorAll('[data-lightbox]').forEach(function (link) {
       link.addEventListener('click', function (e) {
         e.preventDefault();
         var thumb = link.querySelector('img');
         img.src = link.href;
         img.alt = thumb ? thumb.alt : '';
+        dialog.appendChild(img);
         dialog.showModal();
       });
     });

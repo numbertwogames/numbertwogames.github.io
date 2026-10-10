@@ -9,3 +9,17 @@
   app_store_url: "https://apps.apple.com/app/ace31/id394396413"
   play_store_url: ""
   screenshots: [table, tutorial, results, six-players, menu]
+
+- id: calm-down
+  name: Calm Down!
+  name_nl: Zussenstreken
+  logo: /assets/img/games/calm-down/logo-en.png
+  logo_nl: /assets/img/games/calm-down/logo-nl.png
+  banner_art: /assets/img/games/calm-down/sisters.webp
+  icon: /assets/img/games/calm-down/icon.png
+  background: /assets/img/games/calm-down/background.webp
+  platforms: [iOS, Android]
+  app_store_url: ""
+  play_store_url: ""
+  upcoming: true
+  screenshots: []
