@@ -71,9 +71,12 @@ support:
 
 privacy:
   title: Privacy policy
-  updated: "Last updated: 26 September 2026"
-  intro: Number Two Games respects your privacy. This policy explains what information our games and this website handle. The short version is that we do not collect your personal data.
+  updated: "Last updated: 22 October 2026"
+  intro: Number Two Games (Wheel7) respects your privacy. This policy explains what information our games and this website handle. The short version is that we do not collect your personal data.
   sections:
+    - title: Who we are
+      body: |
+        Number Two Games is the game label of **Wheel7**, the developer and legal entity that publishes our apps on Google Play and the Apple App Store. This privacy policy applies to all our apps, including **Ace31** and **Calm Down!**, and to this website. Wheel7 is responsible for the processing of personal data described here. Wheel7 is registered with the Dutch Chamber of Commerce (KvK) under number 59604735 and is based in Oud-Beijerland, the Netherlands. You can reach Wheel7 at [info@wheel7.com](mailto:info@wheel7.com) or [wheel7.com](https://wheel7.com).
     - title: Our games
       body: |
         Our games are designed to work without collecting personal data. They do not require an account, do not show ads and do not include analytics or tracking tools.
