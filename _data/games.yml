@@ -7,7 +7,7 @@
   background: /assets/img/games/ace31/background.webp
   platforms: [iOS, Android]
   app_store_url: "https://apps.apple.com/app/ace31/id394396413"
-  play_store_url: ""
+  play_store_url: "https://play.google.com/store/apps/details?id=com.wheel7games.ace31"
   screenshots: [table, tutorial, results, six-players, menu]
 
 - id: calm-down
